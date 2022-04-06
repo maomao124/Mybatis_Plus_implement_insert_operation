@@ -14,6 +14,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+
 /**
  * Project name(项目名称)：Mybatis_Plus实现插入操作
  * Package(包名): mapper
@@ -30,6 +31,11 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class StudentMapperTest
 {
+    /**
+     * Insert.
+     *
+     * @throws IOException the io exception
+     */
     @Test
     public void insert() throws IOException
     {
@@ -59,6 +65,11 @@ class StudentMapperTest
         sqlSession.close();
     }
 
+    /**
+     * Select.
+     *
+     * @throws IOException the io exception
+     */
     @Test
     public void select() throws IOException
     {
@@ -81,6 +92,11 @@ class StudentMapperTest
         }
     }
 
+    /**
+     * Insert 1.
+     *
+     * @throws IOException the io exception
+     */
     @Test
     public void insert1() throws IOException
     {
